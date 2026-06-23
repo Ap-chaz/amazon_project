@@ -85,4 +85,4 @@ window.addEventListener('DOMContentLoaded', () => {
   const container = document.querySelector('.js-products-grid');
 
   container.innerHTML = productsHTML;
-});
+});test change
