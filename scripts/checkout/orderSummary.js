@@ -1,6 +1,6 @@
 import {cart, removeFromCart, updateDeliveryOption} from "../../data/cart.js";
 import {products} from "../../data/products.js";
-import {formatCurrency} from "../../scripts/utils/money.js";
+import {formatCurrency} from "../utils/money.js";
 import dayjs from "https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js";
 import {deliveryOptions} from "../../data/deliveryOptions.js";
 
@@ -152,3 +152,5 @@ document.querySelectorAll(".js-delivery-option").forEach((element) => {
   });
 });
 }
+
+renderOrderSummary();
